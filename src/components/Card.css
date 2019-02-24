@@ -1,0 +1,49 @@
+.Card {
+    border: solid 2px #fff;
+    margin: 4px;
+    border-radius: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #dadada;
+}
+
+.Card-footer{
+    align-self: stretch;
+}
+
+.Card:hover{
+    border-color: #dcc461;
+    color: #b7a040;
+}
+
+.Description{
+    background: none;
+    border: 1px solid #dadada;
+    font-family: inherit;
+    padding: 2px 10px;
+}
+
+.Button-default{
+    padding: 6px 10px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #6bbee6;
+}
+
+.Card:hover > button, .Card:hover > div > button{
+    color: #96874a;
+}
+
+.Button-remove{
+    align-self: flex-end;
+}
+
+button.Button-default:hover{
+    opacity: 1;
+}
+
+.ml5{ margin-left: 5px; }
+.mr5{ margin-right: 5px; }

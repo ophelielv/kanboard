@@ -1,0 +1,23 @@
+.Board{
+    background-color: #ececec;
+    min-width: 30vw;
+    color: #149bb7;
+    margin: 20px 4px 25px 4px;
+    border-radius: 18px;
+}
+
+.Board-header{
+    background-color: #149bb7;
+    color: white;
+    padding: 2px 0px;
+    border-top-right-radius: 10px;
+}
+
+
+.Button-new{
+    border: none;
+    background-color: #ff253a;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
